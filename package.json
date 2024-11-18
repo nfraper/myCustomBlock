@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vue-tsc -b && vite build  && node render.cjs",
+    "build": "vue-tsc -b && vite build",
     "preview": "vite preview"
   },
   "dependencies": {
@@ -14,8 +14,7 @@
   "devDependencies": {
     "@vitejs/plugin-vue": "^5.1.4",
     "typescript": "~5.6.2",
-    "vite": "^5.4.10",
-    "vue-server-renderer": "^2.7.16",
+    "vite": "^5.4.11",
     "vue-tsc": "^2.1.8"
   }
 }
