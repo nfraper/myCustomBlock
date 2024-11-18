@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vue-tsc -b && vite build  && node render.js",
+    "build": "vue-tsc -b && vite build  && node render.cjs",
     "preview": "vite preview"
   },
   "dependencies": {
