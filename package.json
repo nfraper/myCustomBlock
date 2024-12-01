@@ -10,7 +10,7 @@
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build",
     "preview": "vite preview",
-    "start": "npm run build && npm run preview --port $PORT"
+    "start": "npm run build && npm run preview --port $PORT --host 0.0.0.0"
   },
   "dependencies": {
     "vue": "^3.5.12"
