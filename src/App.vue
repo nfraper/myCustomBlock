@@ -1,6 +1,7 @@
 <template>
   <div id="app">
     <CustomBlock />
+    <p>Hola</p>
   </div>
 </template>
 
